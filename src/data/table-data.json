@@ -1,0 +1,84 @@
+[
+  {
+      "shipmentName": "Express Delivery 1",
+      "clientName": "John Smith",
+      "entryDate": "2022-01-01",
+      "shipmentDate": "2022-01-10",
+      "status": "in progress",
+      "value": 100.0
+  },
+  {
+      "shipmentName": "Priority Mail 2",
+      "clientName": "Jane Doe",
+      "entryDate": "2022-02-01",
+      "shipmentDate": "2022-02-10",
+      "status": "confirmed",
+      "value": 200.0
+  },
+  {
+      "shipmentName": "Air Cargo 3",
+      "clientName": "Bob Johnson",
+      "entryDate": "2022-03-01",
+      "shipmentDate": "2022-03-10",
+      "status": "on hold",
+      "value": 300.0
+  },
+  {
+      "shipmentName": "Ground Transport 4",
+      "clientName": "Mike Williams",
+      "entryDate": "2022-04-01",
+      "shipmentDate": "2022-04-10",
+      "status": "in progress",
+      "value": 400.0
+  },
+  {
+      "shipmentName": "Sea Freight 5",
+      "clientName": "Emily Davis",
+      "entryDate": "2022-05-01",
+      "shipmentDate": "2022-05-10",
+      "status": "confirmed",
+      "value": 500.0
+  },
+  {
+      "shipmentName": "International Shipping 6",
+      "clientName": "James Brown",
+      "entryDate": "2022-06-01",
+      "shipmentDate": "2022-06-10",
+      "status": "on hold",
+      "value": 600.0
+  },
+  {
+      "shipmentName": "Domestic Delivery 7",
+      "clientName": "Emily Wilson",
+      "entryDate": "2022-07-01",
+      "shipmentDate": "2022-07-10",
+      "status": "in progress",
+      "value": 700.0
+  },
+  {
+      "shipmentName": "Special Handling 8",
+      "clientName": "Michael Anderson",
+      "entryDate": "2022-08-01",
+      "shipmentDate": "2022-08-10",
+      "status": "confirmed",
+      "value": 800.0
+  },
+  {
+      "shipmentName": "Bulk Shipment 9",
+      "clientName": "Ashley Taylor",
+      "entryDate": "2022-09-01",
+      "shipmentDate": "2022-09-10",
+      "status": "on hold",
+      "value": 900.0
+  },
+  {
+      "shipmentName": "Urgent Dispatch 10",
+      "clientName": "Joshua Davis",
+      "entryDate": "2022-10-01",
+      "shipmentDate": "2022-10-10",
+      "status": "in progress",
+      "value": 1000.0
+  }
+]     
+
+
