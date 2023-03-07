@@ -8,7 +8,7 @@ const shipments = [
     clientName: "Client 1",
     entryDate: "2022-02-01",
     shipmentDate: "2022-02-10",
-    status: "In Transit",
+    status: "in progress",
     value: 1000,
   },
   {
@@ -16,7 +16,7 @@ const shipments = [
     clientName: "Client 2",
     entryDate: "2022-02-05",
     shipmentDate: "2022-02-12",
-    status: "Delivered",
+    status: "on hold",
     value: 500,
   },
   {
@@ -24,7 +24,7 @@ const shipments = [
     clientName: "Client 3",
     entryDate: "2022-02-10",
     shipmentDate: "2022-02-20",
-    status: "Cancelled",
+    status: "confirmed",
     value: 2000,
   },
 ];
