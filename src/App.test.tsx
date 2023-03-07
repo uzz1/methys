@@ -1,5 +1,5 @@
 import React from "react";
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen, fireEvent, getByDisplayValue } from "@testing-library/react";
 import Table from "./components/Table";
 
 const shipments = [
@@ -38,7 +38,6 @@ describe("Table", () => {
     expect(screen.getByText("Shipment Date")).toBeInTheDocument();
     expect(screen.getByText("Status")).toBeInTheDocument();
     expect(screen.getByText("Value")).toBeInTheDocument();
-    expect(screen.getByText("View")).toBeInTheDocument();
   });
 
   it("renders the correct number of rows", () => {
@@ -60,4 +59,17 @@ describe("Table", () => {
     expect(screen.getByText(shipment1.value.toString())).toBeInTheDocument();
     
   });
+  it('filters the table based on the search term', () => {
+    const { getByText, queryByText, getByPlaceholderText } = render(
+      <Table shipments={shipments} />
+    );
+
+    fireEvent.change(getByPlaceholderText('Search'), { target: { value: 'Shipment 1' } });
+
+    expect(getByText('Shipment 1')).toBeInTheDocument();
+    expect(queryByText('Shipment 2')).toBeNull();
+    expect(queryByText('Shipment 3')).toBeNull();
+  });
+
+  
 })

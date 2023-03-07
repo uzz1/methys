@@ -90,7 +90,7 @@ const Table: React.FC<Props> = ({ shipments }) => {
               </td>
               <td>{shipment.value}</td>
               <td>
-                <button onClick={() => handleView(shipment)}>View</button>
+                <button className="view-button-1" onClick={() => handleView(shipment)}>View</button>
               </td>
             </tr>
           ))}
