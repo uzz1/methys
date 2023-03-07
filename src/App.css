@@ -1,6 +1,15 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #F0F4F7;
   
+}
+.true {
+  margin-left: 240px;
+}
+.false {
+  justify-content: center;
 }
 
 .App-logo {

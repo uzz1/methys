@@ -1,9 +1,10 @@
 .burger-icon {
     position: fixed;
-    top: 10px;
-    left: 10px;
+    top: 25px;
+    left: 20px;
     color: orange;
     font-size: large;
+    margin-right: 20px;
     
 }
 a {

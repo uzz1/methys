@@ -1,10 +1,9 @@
 import React from 'react'
-
-type Props = {}
-
-const Businesses = (props: Props) => {
+const Businesses = () => {
   return (
-    <div className='page-body'>Businesses</div>
+    <div className='page-body'>
+           <h1>Businesses</h1>
+    </div>
   )
 }
 
