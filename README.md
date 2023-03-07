@@ -18,6 +18,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
 
+## Testing 
+
+To run the unit tests:
+
+### `npm run test`
+
+
+
+## Production 
+
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
